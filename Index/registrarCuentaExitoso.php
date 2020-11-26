@@ -602,8 +602,8 @@
                                             } 
                                             catch (Exception $e) 
                                             {
-                                                //echo '<script>alert("Error al enviar el formulario");window.location.href="registrarCuenta.php#section-4"</script>';
-                                                echo $e->getMessage();
+                                                echo '<script>alert("Error al enviar el formulario");window.location.href="registrarCuenta.php#section-4"</script>';
+                                                //echo $e->getMessage();
                                             }
                                         }
                                     } 
